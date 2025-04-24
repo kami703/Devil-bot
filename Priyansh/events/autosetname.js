@@ -7,7 +7,7 @@ module.exports.config = {
 	name: "autosetname",
 	eventType: ["log:subscribe"],
 	version: "1.0.3",
-	credits: "ROBIN",
+	credits: "⟬ 𝐆A͜͡𝐍𝐆𝐒𝐓E͜͡𝐑 ⟭⸙⟬ دیـﹻ۬ﹻۧ۬ﹻٰ۬ﹻٰ۬ﹻۧ۬ﹻ۬ﹻـول ⟭",
 	description: "Dont Change Credit otherwise your bot is lol"
 };
 
