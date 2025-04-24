@@ -7,7 +7,7 @@ module.exports.config = {
 	name: "admin2",
 	version: "1.0.5",
 	hasPermssion: 0,
-	credits: "Robin",
+	credits: "Devil",
 	description: "Dont Change This Credits Otherwisw Your Bot Lol",
 	commandCategory: "config",
 	usages: "[list/add/remove] [userID]",
