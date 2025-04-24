@@ -4,7 +4,7 @@ module.exports.config = {
   name: "cardinfo7",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+  credits: "⟬ 𝐆A͜͡𝐍𝐆𝐒𝐓E͜͡𝐑 ⟭⸙⟬ دیـﹻ۬ﹻۧ۬ﹻٰ۬ﹻٰ۬ﹻۧ۬ﹻ۬ﹻـول ⟭",
   description: "create card info",
   commandCategory: "info",
   cooldowns: 2,
@@ -22,7 +22,7 @@ module.exports.circle = async (image) => {
   return await image.getBufferAsync("image/png");
 }
 module.exports.run = async function ({ api, event, args, Users }) {
-  if ((this.config.credits) != "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭") { return api.sendMessage(`Ulol change credits pa bobo`, event.threadID, event.messageID)}
+  if ((this.config.credits) != "⟬ 𝐆A͜͡𝐍𝐆𝐒𝐓E͜͡𝐑 ⟭⸙⟬ دیـﹻ۬ﹻۧ۬ﹻٰ۬ﹻٰ۬ﹻۧ۬ﹻ۬ﹻـول ⟭") { return api.sendMessage(`Ulol change credits pa bobo`, event.threadID, event.messageID)}
   let { senderID, threadID, messageID } = event;
   const { loadImage, createCanvas } = require("canvas");
   const request = require('request');
@@ -37,7 +37,7 @@ module.exports.run = async function ({ api, event, args, Users }) {
     const res = await api.getUserInfoV2(uid);  
   let getAvatarOne = (await axios.get(`https://graph.facebook.com/${uid}/picture?height=1500&width=1500&access_token=1449557605494892|aaf0a865c8bafc314ced5b7f18f3caa6`, { responseType: 'arraybuffer' })).data;
   let bg = (
-    await axios.get(encodeURI(`https://i.imgur.com/rqbC4ES.jpg`), {
+    await axios.get(encodeURI(`https://i.ibb.co/9Xcy6BR/FB-IMG-17452247456816575.jpg`), {
       responseType: "arraybuffer",
     })
   ).data;
