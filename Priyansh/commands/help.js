@@ -69,7 +69,7 @@ module.exports. run = function({ api, event, args, getText }) {
 
     for (let item of returnArray) msg += ` 🌸 ${++i} ${global.config.PREFIX}${item}\n`; 
 
-    const text = `{page (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)}) Jani compelet command list ka leya help2 type kr *★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀  ཫ༄𒁍≛⃝ROBIN`;
+    const text = `{page (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)}) Jani compelet command list ka leya help2 type kr *★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀  ཫ༄𒁍≛⃝DEVIL`;
     return api.sendMessage(msg + "\n" + text, threadID, async (error, info) => {
       if (autoUnsend) {
         await new Promise(resolve => setTimeout(resolve, delayUnsend * 10000));
