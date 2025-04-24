@@ -73,7 +73,7 @@ module.exports. run = function({ api, event, args, getText }) {
 
     const siu = `TOTAL COMMAND LIST ❤️🍫`;
 
- const text = `Page\n (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})\n\n Or command dekhny han to menu type kr bero 😑  *★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀  ཫ༄𒁍≛⃝ROBIN`;
+ const text = `Page\n (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})\n\n Or command dekhny han to menu type kr bero 😑  *★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀  ཫ༄𒁍≛⃝DEVIL`;
 
     return api.sendMessage(siu + "\n\n" + msg  + text, threadID, async (error, info) => {
       if (autoUnsend) {
