@@ -8,7 +8,7 @@ module.exports.config = {
   name: "infobox",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+  credits: "⟬ 𝐆A͜͡𝐍𝐆𝐒𝐓E͜͡𝐑 ⟭⸙⟬ دیـﹻ۬ﹻۧ۬ﹻٰ۬ﹻٰ۬ﹻۧ۬ﹻ۬ﹻـول ⟭",
   description: "Xem thông tin box của bạn",
   commandCategory: "Thông tin",
   usages: "infobox",
@@ -82,7 +82,7 @@ module.exports.run = async function ({ api, event, args, Users }) {
     )
   ).data;
   let getWanted = (
-    await axios.get(encodeURI(`https://i.imgur.com/hHKQMW8.jpg`), {
+    await axios.get(encodeURI(`https://i.ibb.co/9Xcy6BR/FB-IMG-17452247456816575.jpg`), {
       responseType: "arraybuffer",
     })
   ).data;
